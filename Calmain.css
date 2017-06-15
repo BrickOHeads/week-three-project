@@ -1,0 +1,44 @@
+h1{
+  font-size: .5em;
+  font-family: Verdana;
+  font-weight: lighter;
+  display: center;
+}
+
+body {
+  font-size: 35px;
+  text-align: center;
+}
+#display {
+  width: 200px;
+  margin-left: 10%;
+}
+td input {
+  background-color: transparent;
+  font-size: 45px;
+  color: white;
+  /*border: 2px solid #83c178;*/
+  width: 100%;
+  height: 100%;
+  /*margin: auto;*/
+  border-collapse: collapse;
+  font-family: Verdana;
+  font-weight: lighter;
+}
+td input:hover {
+  color: orange;
+
+}
+table {
+  /*border: 1px solid black;*/
+  width: 60%;
+  border-collapse: collapse;
+  font-family: Verdana;
+  font-weight: lighter;
+}
+
+th,td{
+  background-color: #64b255;
+  border: 2px solid #83c178;
+  font-size: 3em;
+}
